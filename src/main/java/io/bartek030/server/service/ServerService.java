@@ -9,7 +9,7 @@ import java.util.Collection;
 public interface ServerService {
     Server create(Server server);
     Server pingServer(String ipAddress) throws IOException;
-    Collection<Server> serverList(int limit);
+    Collection<Server> getServerList(int limit);
     Server getServer(Long id);
     Server updateServer(Server server);
     Boolean deleteServer(Long id);

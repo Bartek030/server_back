@@ -44,7 +44,7 @@ public class ServerServiceImplementation implements ServerService {
     }
 
     @Override
-    public Collection<Server> serverList(final int limit) {
+    public Collection<Server> getServerList(final int limit) {
         log.info("Fetching all servers");
         return serverRepository.findAll(of(0, limit)).toList();
     }
