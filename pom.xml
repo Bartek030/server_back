@@ -14,7 +14,7 @@
 	<name>server</name>
 	<description>Server manager application</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>15</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
